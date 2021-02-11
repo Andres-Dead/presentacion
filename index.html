@@ -1,51 +1,118 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
 
-		<title>cacoo</title>
+    <title>cacoo</title>
 
-		<link rel="stylesheet" href="dist/reset.css">
-		<link rel="stylesheet" href="dist/reveal.css">
-		<link rel="stylesheet" href="dist/theme/night.css" id="theme">
+    <link rel="stylesheet" href="dist/reset.css" />
+    <link rel="stylesheet" href="dist/reveal.css" />
+    <link rel="stylesheet" href="dist/theme/night.css" id="theme" />
 
-		<!-- Theme used for syntax highlighted code -->
-		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section data-transition="convex">
-					<img data-src="assets/images/logo.png">
-				</section>
-				<section data-transition="convex">
-					<section data-transition="concave">¿Qué es?</section>
-					<section > <p >Cacoo es un servicio online para crear, compartir y publicar diagramas.
-						<br>Es una herramienta de dibujo en línea amigable que te permite crear una variedad de digramas como mapas de sitios, wire frames, diagrams de UML y de red. 
-						<br>Puede ser utilizado libre de cargo.</p>
-						
-						</section>
-				</section>
-				<section>Diapositiva 3</section>
-				
-			</div>
-		</div>
+    <!-- Theme used for syntax highlighted code -->
+    <link
+      rel="stylesheet"
+      href="plugin/highlight/monokai.css"
+      id="highlight-theme"
+    />
+  </head>
+  <body>
+    <div class="reveal">
+      <div class="slides">
+          <section data-auto-animate>
+            <div data-id="box" style="height: 50px">
+              <img data-src="images/logo.png" />
+            </div>
+          </section>
+          <section data-auto-animate>
+            <div data-id="box" style="height: 200px">
+              <img data-src="images/logo.png" />
+            </div>
+          </section>
+        </section>
+        <section data-transition="convex">
+          <section data-transition="convex"><h3>¿Qué es?</h3></section>
+          <section data-transition="convex">
+            <p style="text-align: justify;">
+              Cacoo es un servicio online para crear, compartir y publicar
+              diagramas. <br />Es una herramienta de dibujo en línea amigable
+              que te permite crear una variedad de digramas como mapas de
+              sitios, wire frames, diagrams de UML y de red. <br />Puede ser
+              utilizado libre de cargo.
+            </p>
+          </section>
+        </section>
+			<section data-transition="convex"><h3>Caracteristicas</h3></section>
+      <section data-transition="convex">
+			<section data-auto-animate data-transition="convex">
+				<div style="text-align: justify;">
+					<ul>
+						<li>Versión gratuita</li>
+						<li>Variedad de objetos graficos</li>
+						<li>Trabajo colaborativo simultáneo</li>
+						<li>Facilidad de uso</li>
+					</ul>
+				</div>
+			</section>
+    </section>
+			<section data-auto-animate data-transition="convex">
+				<div style="text-align: justify;">
+					<ul>
+						<li>Versión gratuita</li>
+						<ul>
+							<li>Con una opción de paga</li>
+						</ul>
+						<li>Variedad de objetos graficos</li>
+						<ul>
+							<li>Colores y figuras</li>
+						</ul>
+						<li>Trabajo colaborativo simultáneo</li>
+						<ul>
+							<li>Un mismo diagrama se puede editar por varias personas <stong>simultáneamente</stong></li>
+						</ul>
+						<li>Facilidad de uso</li>
+					</ul>
+				</div>
+			</section>
+      <section data-transition="convex"><h3>Ventajas y desventajas</h3></section>
 
-		<script src="dist/reveal.js"></script>
-		<script src="plugin/notes/notes.js"></script>
-		<script src="plugin/markdown/markdown.js"></script>
-		<script src="plugin/highlight/highlight.js"></script>
-		<script>
-			// More info about initialization & config:
-			// - https://revealjs.com/initialization/
-			// - https://revealjs.com/config/
-			Reveal.initialize({
-				hash: true,
+        <section data-transition="convex">
+          <table style="border: solid floralwhite;">
+            <tr>
+              <td style="background-color:#a9dfbf;"><h3 style="color: black; text-align: center;">Ventajas</h3></td>
+              <td style="background-color:#f5b7b1;"><h3 style="color: black; text-align: center;">Desventajas</h3></td>
+            </tr>
+            <tr>
+              <td style="background-color:#eafaf1; width: 12cm;">
+              <p style="color: black; text-align: justify; padding: 10px;">La opción colaborativa de los proyectos es útil a la hora de comenzar un proyecto en equipo y la versión de prueba es potente.</p>
+              </td>
+              <td style="background-color:#fdedec; width: 11cm;">
+              <p style="color: black; text-align: justify; padding: 10px;">Si no se compra la licencia las páginas de un documento se ven limitadas a 6, no existe chat interno sin la licencia ni historial de cambios</p>
+              </td>
+            </tr>
+          </table>
+        </section>
+      </div>
+    </div>
 
-				// Learn about plugins: https://revealjs.com/plugins/
-				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
-			});
-		</script>
-	</body>
+    <script src="dist/reveal.js"></script>
+    <script src="plugin/notes/notes.js"></script>
+    <script src="plugin/markdown/markdown.js"></script>
+    <script src="plugin/highlight/highlight.js"></script>
+    <script>
+      // More info about initialization & config:
+      // - https://revealjs.com/initialization/
+      // - https://revealjs.com/config/
+      Reveal.initialize({
+        hash: true,
+
+        // Learn about plugins: https://revealjs.com/plugins/
+        plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+      });
+    </script>
+  </body>
 </html>
